@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Animobile</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Animobile Logo" class="logo" />
+      <h1>ANIMOBILE</h1>
+      <button class="back-button">⬅</button>
+    </header>
+
+    <form>
+      <label for="animal-type">Animal Type</label>
+      <input type="text" id="animal-type" placeholder="Start Typing..." />
+
+      <label for="location">Location</label>
+      <input type="text" id="location" placeholder="Start Typing..." />
+
+      <label for="image">Attach Image</label>
+      <div class="image-upload">
+        <input type="file" id="image" accept="image/*" />
+        <label for="image">
+          <img src="camera-icon.png" alt="Camera Icon" class="camera-icon" />
+        </label>
+      </div>
+
+      <label for="notes">Notes</label>
+      <textarea id="notes" placeholder="Start Typing..."></textarea>
+    </form>
+  </div>
+</body>
+</html>
