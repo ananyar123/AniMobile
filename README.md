@@ -13,11 +13,11 @@ The basic components of this app involve account creation for both standard user
 
 Design & Assembly 
 
-We used Figma to design the user interface (UI) and then integrated an API with React to display detailed information and descriptions about various animals.
+For a friendly user interface, we took inspiration from the popular "Pokémon Go!" app as well as conceptiual ideas from Ring Camera's community feed and Snapchat's map feature. Being able to interact with the real world through a virtual map can make everyday life feel like an adventure. 
 
-Challenges 
+Challenges
 
-One of the main challenges we faced was the time constraint. While we successfully developed a solid proof of concept, including the Figma layout and prototype, as well as the API integration code, we were unable to complete the entire UI. The scope of the remaining coding was extensive, and given the limited timeframe, we were unable to finish all the necessary development.
+Any app with social functionality is no easy feat and incorporating an interactive map was something brand new to all of us. Instead of fully linking an API and building on top of it (due to cost and time constraints), we modelled the UX in Figma to simulate what a report of an animal sighting would look like. 
 
 What's Next for Animobile 
 
