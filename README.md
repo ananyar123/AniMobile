@@ -13,5 +13,12 @@ The basic components of this app involve account creation for both standard user
 
 Design & Assembly 
 
+We used Figma to design the user interface (UI) and then integrated an API with React to display detailed information and descriptions about various animals.
 
+Challenges 
 
+One of the main challenges we faced was the time constraint. While we successfully developed a solid proof of concept, including the Figma layout and prototype, as well as the API integration code, we were unable to complete the entire UI. The scope of the remaining coding was extensive, and given the limited timeframe, we were unable to finish all the necessary development.
+
+What's Next for Animobile 
+
+Moving forward, we plan to expand Animobile by refining and completing the user interface to provide a fully functional and engaging experience for users. This includes implementing additional features such as advanced search functionality, animal categorization, and a more interactive design. We also aim to integrate more comprehensive animal data and potentially include multimedia elements, like images and videos, to enhance the user experience. To ensure the app's scalability, we will focus on optimizing the backend and exploring the integration of more APIs for even richer content. 
