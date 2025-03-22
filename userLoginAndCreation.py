@@ -3,7 +3,6 @@ import json
 USER_DATA_FILE = "userDatabase.json"
 
 def load_users():
-    """Load user data from a file."""
     try:
         with open(USER_DATA_FILE, "r") as file:
             return json.load(file)
@@ -11,7 +10,6 @@ def load_users():
         return {}
 
 def save_users(users):
-    """Save user data to a file."""
     with open(USER_DATA_FILE, "w") as file:
         json.dump(users, file)
 
@@ -29,20 +27,20 @@ def returningUser():
 def createUser():
     users = load_users()
     
-    username = input("Create a username: ")
+    username = input("Create your username: ")
     if username in users:
-        print("Username already exists. Try another.")
+        print("Username in use.")
         return
     
-    password = input("Create a password: ")
+    password = input("Set your password: ")
     confirm_password = input("Confirm password: ")
 
     if password == confirm_password:
         users[username] = password
         save_users(users)
-        print("Account created successfully!")
+        print("Account created.")
     else:
-        print("Passwords do not match. Try again.")
+        print("Passwords must match.")
 
 if __name__ == "__main__":
     choice = input("Do you want to sign into an existing account? (yes/no): ").strip().lower()
@@ -51,5 +49,5 @@ if __name__ == "__main__":
     elif choice == "no":
         createUser()
     else:
-        print("Invalid choice. Exiting.")
+        print("Error...")
    
